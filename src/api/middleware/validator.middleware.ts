@@ -1,4 +1,3 @@
-import { ValidationError } from "@/domain/errors/app-errors";
 import { Request, Response, NextFunction } from "express";
 import { Schema } from "joi";
 

@@ -7,7 +7,7 @@ import {
 import { getObjectId } from "@/domain/helpers/util";
 import { userError } from "@/domain/messages/error/user.error";
 import { Session } from "@/domain/entities/session.entiry";
-import { SessionModel } from "../models/session.model";
+import { SessionModel } from "@/infrastructure/database/models/session.model";
 import { ISessionRepository } from "@/domain/interface/repositories/session.interface";
 
 @injectable()

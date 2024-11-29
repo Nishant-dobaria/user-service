@@ -1,0 +1,15 @@
+export const userError = {
+  NOT_FOUND: "user not found",
+  USERS_NOT_FOUND: "users are not found",
+  ERROR_SESSION: "something went wrong while user creation",
+  PASSWORD_REQURIED: "password is required for user creation",
+  UN_AUTHORIZED: "user is not authorized",
+  ALREADY_EXIST: "user already exist",
+  TOKEN_EXPIRED: "user token expired",
+  NOT_VALID_TOKEN: "user token is not valid",
+  NOT_EXIST: "user not exist",
+  LOGIN_GOOGLE: "please login with google",
+  INVALID_CREDENCIAL: "provided credencials are invalid",
+  GET_PROFILE_QUEARY: "userId or email required",
+  PASSWORD_REQURED: "password is required",
+} as const;
